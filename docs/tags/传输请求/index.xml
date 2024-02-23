@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>传输请求 on 一席桑麻的笔记本</title>
+    <link>https://yixiapp.com/tags/%E4%BC%A0%E8%BE%93%E8%AF%B7%E6%B1%82/</link>
+    <description>Recent content in 传输请求 on 一席桑麻的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2024 14:34:19 +0800</lastBuildDate>
+    <atom:link href="https://yixiapp.com/tags/%E4%BC%A0%E8%BE%93%E8%AF%B7%E6%B1%82/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>修改请求状态</title>
+      <link>https://yixiapp.com/posts/abap_requests/</link>
+      <pubDate>Thu, 22 Feb 2024 14:34:19 +0800</pubDate>
+      <guid>https://yixiapp.com/posts/abap_requests/</guid>
+      <description>有时我们会希望挽回释放的请求，有时我们想改变请求的层级。
+在ECC中，用SE38执行 RDDIT076 程序，可以修改请求的状态，但在HANA版本中好像不行。
+这时可以直接修改表 E070，把R改成D。 如图，上层的请求在 STRKORR 里面，可以改变请求的从属关系。
+请求锁定对象的表是 TCLOK，可删除数据解锁。 此外，EO71表记录了请求包含的对象。</description>
+    </item>
+  </channel>
+</rss>

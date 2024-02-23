@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>一席桑麻的笔记本</title>
+    <link>https://yixiapp.com/</link>
+    <description>Recent content on 一席桑麻的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 14:15:12 +0800</lastBuildDate>
+    <atom:link href="https://yixiapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>https://yixiapp.com/posts/network/</link>
+      <pubDate>Fri, 23 Feb 2024 14:15:12 +0800</pubDate>
+      <guid>https://yixiapp.com/posts/network/</guid>
+      <description>用 PING 命令查看目标地址是否可用 ping cn.bing.com 可以用域名，也可以用ip地址 ping -t 可以一直运行，直到关闭命令窗口或者按下 ctrl+c 但是有些机器是禁止被ping的
+用 TELNET 查看端口是否可用 window环境需要下载这个软件使用 telnet 192.168.1.130 8080 可以用域名，也可以用ip地址 网络不通会报错，网络如果通了，窗口全黑，这时关掉这个窗口即可
+用 NSLOOKUP 命令查看网址的 DNS 和域名的别名 一般用于查看设置的域名解析是否生效
+非交互模式 nslookup cn.bing.com 交互模式 nslookup
+可以多次输入地址，直到按下 ctrl+c
+附：资源记录的含义 可以试试下面命令，依次输入
+nslookup set ty=A baidu.com </description>
+    </item>
+    <item>
+      <title>修改请求状态</title>
+      <link>https://yixiapp.com/posts/abap_requests/</link>
+      <pubDate>Thu, 22 Feb 2024 14:34:19 +0800</pubDate>
+      <guid>https://yixiapp.com/posts/abap_requests/</guid>
+      <description>有时我们会希望挽回释放的请求，有时我们想改变请求的层级。
+在ECC中，用SE38执行 RDDIT076 程序，可以修改请求的状态，但在HANA版本中好像不行。
+这时可以直接修改表 E070，把R改成D。 如图，上层的请求在 STRKORR 里面，可以改变请求的从属关系。
+请求锁定对象的表是 TCLOK，可删除数据解锁。 此外，EO71表记录了请求包含的对象。</description>
+    </item>
+    <item>
+      <title>Story</title>
+      <link>https://yixiapp.com/story/</link>
+      <pubDate>Sun, 18 Feb 2024 22:28:19 +0800</pubDate>
+      <guid>https://yixiapp.com/story/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+  </channel>
+</rss>

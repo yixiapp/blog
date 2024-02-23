@@ -1,0 +1,9 @@
+{
+    "picgo.picBed.current": "qiniu",
+    "picgo.picBed.qiniu.accessKey": "ZxFoTOc8drta51orwfsvza7Hsk4RqTRpp9RjqLYX",
+    "picgo.picBed.qiniu.bucket": "jianshu",
+    "picgo.picBed.qiniu.path": "image/sap/2024/",
+    "picgo.picBed.qiniu.secretKey": "t00CewSA8uvznwBv3PX4UDEHnzBc0EoyP2-4EVTI",
+    "picgo.picBed.qiniu.url": "http://qiniu.yixiapp.com",
+    "picgo.customUploadName": "${fileName}${extName}"
+}

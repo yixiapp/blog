@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>simple on 一席桑麻的笔记本</title>
+    <link>https://yixiapp.com/tags/simple/</link>
+    <description>Recent content in simple on 一席桑麻的笔记本</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Feb 2024 22:28:19 +0800</lastBuildDate>
+    <atom:link href="https://yixiapp.com/tags/simple/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Story</title>
+      <link>https://yixiapp.com/story/</link>
+      <pubDate>Sun, 18 Feb 2024 22:28:19 +0800</pubDate>
+      <guid>https://yixiapp.com/story/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+  </channel>
+</rss>
